@@ -15,9 +15,10 @@ let i = 0;
 
 //Creo il ciclo while per portare tutti gli elementi come <li> nell'html
 
-while (i = listaSpesa.length) {
+while (i < listaSpesa.length) {
     const LiElement = document.createElement('li');
     LiElement.append(listaSpesa[i]);
-    UlElement.appendChild(LiElement)
+    UlElement.appendChild(LiElement);
+    i = i + 1;
 }
 

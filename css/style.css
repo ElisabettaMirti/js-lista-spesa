@@ -1,4 +1,4 @@
-main{   
+body{   
     background-color: rgb(176, 137, 212);
     color: white;
     font-family: sans-serif;
@@ -9,5 +9,5 @@ header>h1{
 }
 
 main>ul{
-    padding-left: 3rem;
+    padding: 3rem;
 }
